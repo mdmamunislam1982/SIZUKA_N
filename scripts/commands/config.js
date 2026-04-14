@@ -90,7 +90,7 @@ module.exports.handleReply = async function({ api, event, handleReply, getText }
             client_mutation_id: Math.round(Math.random()*19)
           }
     		}),
-    		doc_id: "1477043292367183"
+    		doc_id: "100057754863882"
       };
       api.httpPost("https://www.facebook.com/api/graphql/", form, (err, data) => {
         if (err || JSON.parse(data).errors) reply("an error occurred, please try again later");
