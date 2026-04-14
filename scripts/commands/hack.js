@@ -97,7 +97,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   const imageBuffer = canvas.toBuffer();
   fs.writeFileSync(pathImg, imageBuffer);
   fs.removeSync(pathAvt1);
-  return api.sendMessage({ body: `ইস তোমার আইডি তো হ্যাক হয়ে গেল আইডি পাসওয়ার্ড নিতে চাইলে আমার বস 𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍 এর ইনবক্সে চলে যাও। 🤧😐`, attachment: fs.createReadStream(pathImg) },
+  return api.sendMessage({ body: `ইস তোমার আইডি তো হ্যাক হয়ে গেল আইডি পাসওয়ার্ড নিতে চাইলে আমার বস 𝐌𝐚𝐦𝐮𝐧 এর ইনবক্সে চলে যাও। 🤧😐`, attachment: fs.createReadStream(pathImg) },
       event.threadID,
       () => fs.unlinkSync(pathImg),
       event.messageID);
