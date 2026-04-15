@@ -3,16 +3,7 @@
         "key": "fr",
         "value": "0BHyBsrk97kB0AXl4.AWfhHn_g1lGV06d4C73CjIm7_-_rF_wtg6ZphWq46PTUIj9Ueic.Bp262s..AAA.0.0.Bp34HS.AWck6pBV1RZ3m_h8amytKmNoZPM",
         "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-15T12:17:40.518Z",
-        "lastAccessed": "2026-04-15T12:17:40.518Z"
-    },
-    {
-        "key": "wl_cbv",
-        "value": "v2%3Bclient_version%3A3143%3Btimestamp%3A1776255442",
-        "domain": "facebook.com",
-        "path": "/",
+        "path "/",
         "hostOnly": false,
         "creation": "2026-04-15T12:17:40.518Z",
         "lastAccessed": "2026-04-15T12:17:40.518Z"
